@@ -1,0 +1,32 @@
+# Java
+target/
+*.jar
+*.war
+*.ear
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+
+# Node
+node_modules/
+dist/
+.venv/
+*.log
+npm-debug.log*
+
+# IDE
+.vscode/
+.DS_Store
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OneDrive
+.zencoder/
+.zenflow/

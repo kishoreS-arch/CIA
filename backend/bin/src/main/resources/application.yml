@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: marks-management
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres  # Supabase URL will go here
+    username: postgres
+    password: password
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+jwt:
+  secret: a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z7a8b9c0d1e2f3
+  expirationMs: 86400000
+
+server:
+  port: 8080
